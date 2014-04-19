@@ -3,14 +3,14 @@ from sys import argv
 import shutil
 import re
 
-#HOST_LOCATION = '/etc/hosts'
-HOST_LOCATION = '/home/t//Desktop/hosts'
+#Run new vhost: sudo python new-domain.py new-domain.test
+#require test base
+
+HOST_LOCATION = '/etc/hosts'
 HOST_LINE = '127.0.0.1\t%s'
-#PATH_WWW_VHOSTS = '/home/t/www/vhosts'
-PATH_WWW_VHOSTS = '/home/t/Desktop/www/vhosts'
+PATH_WWW_VHOSTS = '/home/t/www/vhosts'
 HOST_BASE = 'test.t'
-#APACHE_LOCATION = '/etc/apache2'
-APACHE_LOCATION = '/home/t/Desktop'
+APACHE_LOCATION = '/etc/apache2'
 APACHE_SITES_AVAILABLE = 'sites-available'
 
 NEW_HOST_NAME = argv[1]
@@ -60,5 +60,3 @@ system('sudo a2ensite ' + NEW_HOST_NAME)
 
 #task5
 system('sudo service apache2 reload')
-
-#shutil.rmtree('perm')
