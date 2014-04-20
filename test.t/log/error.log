@@ -1,0 +1,13 @@
+[Fri Nov 08 15:06:54 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/favicon.ico
+[Fri Nov 08 15:07:28 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/images, referer: http://www.domain.com/
+[Fri Nov 08 15:07:28 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/images, referer: http://www.domain.com/
+[Fri Nov 08 15:07:28 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/images, referer: http://www.domain.com/
+[Fri Nov 08 15:08:11 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/favicon.ico
+[Fri Nov 08 15:08:11 2013] [error] [client 127.0.0.1] File does not exist: /home/t/www/vhosts/domain.com/htdocs/favicon.ico
+[Sun Jan 19 14:36:15.325179 2014] [core:error] [pid 17857] (13)Permission denied: [client 127.0.0.1:40292] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:38:39.886317 2014] [core:error] [pid 18079] (13)Permission denied: [client 127.0.0.1:40301] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:38:40.454395 2014] [core:error] [pid 18079] (13)Permission denied: [client 127.0.0.1:40301] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:38:40.676797 2014] [core:error] [pid 18079] (13)Permission denied: [client 127.0.0.1:40301] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:38:40.849421 2014] [core:error] [pid 18079] (13)Permission denied: [client 127.0.0.1:40301] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:39:36.071259 2014] [core:error] [pid 18178] (13)Permission denied: [client 127.0.0.1:40320] AH00035: access to / denied (filesystem path '/home/t/www/vhosts/test.t/htdocs') because search permissions are missing on a component of the path
+[Sun Jan 19 14:41:05.732049 2014] [core:error] [pid 18181] (13)Permission denied: [client 127.0.0.1:40326] AH00132: file permissions deny server access: /home/t/www/vhosts/test.t/htdocs/index.html, referer: http://test.t/

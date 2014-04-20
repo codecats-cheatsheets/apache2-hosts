@@ -1,0 +1,24 @@
+    <VirtualHost *:80>
+     
+      # Admin email, Server Name (domain name) and any aliases
+      ServerAdmin webmaster@test.t
+      ServerName  test.t
+      ServerAlias www.test.t
+     
+     
+      # Index file and Document Root (where the public files are located)
+      DirectoryIndex index.html, index.php
+      DocumentRoot /home/t/www/vhosts/test.t/htdocs
+     
+	<Directory /home/t/www/vhosts/test.t/htdocs/>
+		Options Indexes FollowSymLinks
+		AllowOverride All
+		Require all granted
+	</Directory>
+     
+      # Custom log file locations
+      LogLevel warn
+      ErrorLog  /home/t/www/vhosts/test.t/log/error.log
+      CustomLog /home/t/www/vhosts/test.t/log/access.log combined
+     
+    </VirtualHost>
