@@ -54,7 +54,9 @@ for no, line in enumerate(content):
 
 content.insert(lastMath + 1, newHost)
 
-with open(hostPath, 'w') as file: file.write('\n'.join(content))
+print content
+exit()
+#with open(hostPath, 'w') as file: file.write('\n'.join(content))
 
 #task2
 #shutil.copytree(path.join(PATH_WWW_VHOSTS, HOST_BASE), path.join(PATH_WWW_VHOSTS, NEW_HOST_NAME))
