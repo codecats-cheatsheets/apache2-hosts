@@ -82,7 +82,7 @@ content = content.replace(HOST_BASE, NEW_HOST_NAME)
 with open(newHostLocationConf, 'w') as file: file.write(content)
 
 #task4
-system('sudo a2ensite ' + NEW_HOST_NAME)
+system('sudo a2ensite {0}'.format(NEW_HOST_NAME))
 
 #task5
 system('sudo service apache2 reload')
