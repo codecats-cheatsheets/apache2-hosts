@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ -d "/home/s/www/vhosts/$1.t/htdocs/Symfony" ]; then
-	cd /home/s/www/vhosts/$1.t/htdocs/Symfony
+if [ -d "/home/$USER/www/vhosts/$1.t/htdocs/Symfony" ]; then
+	cd /home/$USER/www/vhosts/$1.t/htdocs/Symfony
 else 
-	cd /home/s/www/vhosts/$1.t/htdocs
+	cd /home/$USER/www/vhosts/$1.t/htdocs
 fi
